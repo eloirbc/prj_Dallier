@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,7 @@ namespace wfrm_prj_methodeScrum
 {
     public partial class Insertion : Form
     {
+        SqlConnection sqlCon = new SqlConnection(@"Data Source=BTS2020-19\SQLEXPRESS;Initial Catalog=Micromanio;Integrated Security=True");
         public Insertion()
         {
             InitializeComponent();
@@ -68,6 +70,11 @@ namespace wfrm_prj_methodeScrum
             tbEtat.Visible = true;
             lbEtat.Visible = true;
             lbmarque.Visible = true;
+        }
+
+        private void btGO_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
