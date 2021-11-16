@@ -1,0 +1,12 @@
+C:\Users\duponte\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\bin\Debug\wfrm_prj_methodeScrum.exe.config
+C:\Users\duponte\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\bin\Debug\wfrm_prj_methodeScrum.exe
+C:\Users\duponte\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\bin\Debug\wfrm_prj_methodeScrum.pdb
+C:\Users\duponte\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.csproj.AssemblyReference.cache
+C:\Users\duponte\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.Connexion.resources
+C:\Users\duponte\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.Menu.resources
+C:\Users\duponte\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.Properties.Resources.resources
+C:\Users\duponte\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.csproj.GenerateResource.cache
+C:\Users\duponte\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.csproj.CoreCompileInputs.cache
+C:\Users\duponte\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.exe
+C:\Users\duponte\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.pdb
+C:\Users\duponte\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.Consultation.resources

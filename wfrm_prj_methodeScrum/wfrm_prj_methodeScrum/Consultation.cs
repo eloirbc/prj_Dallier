@@ -16,5 +16,33 @@ namespace wfrm_prj_methodeScrum
         {
             InitializeComponent();
         }
+
+        private void Consultation_Load(object sender, EventArgs e)
+        {
+            rbConsole.Checked = false;
+            rbJv.Checked = false;
+        }
+
+        private void lvConsole_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lvJv_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rbJv_CheckedChanged(object sender, EventArgs e)
+        {
+            lvConsole.Visible = false;
+            lvJv.Visible = true;
+        }
+
+        private void rbConsole_CheckedChanged(object sender, EventArgs e)
+        {
+            lvJv.Visible = false;
+            lvConsole.Visible = true;
+        }
     }
 }
