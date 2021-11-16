@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wfrm_prj_methodeScrum", "wfrm_prj_methodeScrum\wfrm_prj_methodeScrum.csproj", "{800709C1-522D-4EF7-A627-893636F882EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{800709C1-522D-4EF7-A627-893636F882EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{800709C1-522D-4EF7-A627-893636F882EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{800709C1-522D-4EF7-A627-893636F882EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{800709C1-522D-4EF7-A627-893636F882EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDB39278-5C91-4A61-8B33-DC3EB3A7EA81}
+	EndGlobalSection
+EndGlobal
