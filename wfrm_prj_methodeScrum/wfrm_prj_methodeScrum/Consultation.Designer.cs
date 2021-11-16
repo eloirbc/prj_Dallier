@@ -42,6 +42,7 @@ namespace wfrm_prj_methodeScrum
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // label1
@@ -145,12 +146,24 @@ namespace wfrm_prj_methodeScrum
             this.columnHeader7.Text = "Marque";
             this.columnHeader7.Width = 200;
             // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(446, 7);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(148, 20);
+            this.radioButton1.TabIndex = 5;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "les marques et états";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
             // Consultation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(120)))), ((int)(((byte)(163)))));
             this.ClientSize = new System.Drawing.Size(705, 461);
+            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.rbConsole);
             this.Controls.Add(this.rbJv);
             this.Controls.Add(this.label1);
@@ -179,5 +192,6 @@ namespace wfrm_prj_methodeScrum
         private System.Windows.Forms.ColumnHeader columnHeader5;
         private System.Windows.Forms.ColumnHeader columnHeader6;
         private System.Windows.Forms.ColumnHeader columnHeader7;
+        private System.Windows.Forms.RadioButton radioButton1;
     }
 }
