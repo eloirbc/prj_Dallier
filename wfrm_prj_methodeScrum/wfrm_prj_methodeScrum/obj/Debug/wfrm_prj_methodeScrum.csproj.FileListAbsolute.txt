@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 C:\Users\duponte\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\bin\Debug\wfrm_prj_methodeScrum.exe.config
 C:\Users\duponte\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\bin\Debug\wfrm_prj_methodeScrum.exe
 C:\Users\duponte\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\bin\Debug\wfrm_prj_methodeScrum.pdb
@@ -25,3 +26,19 @@ C:\Users\hommetm\OneDrive\PRO\_CODE\WORKSPACE\C#\prj_Dallier\wfrm_prj_methodeScr
 C:\Users\hommetm\OneDrive\PRO\_CODE\WORKSPACE\C#\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.csproj.CoreCompileInputs.cache
 C:\Users\hommetm\OneDrive\PRO\_CODE\WORKSPACE\C#\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.exe
 C:\Users\hommetm\OneDrive\PRO\_CODE\WORKSPACE\C#\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.pdb
+=======
+C:\Users\rabece\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\bin\Debug\wfrm_prj_methodeScrum.exe.config
+C:\Users\rabece\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\bin\Debug\wfrm_prj_methodeScrum.exe
+C:\Users\rabece\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\bin\Debug\wfrm_prj_methodeScrum.pdb
+C:\Users\rabece\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.csproj.AssemblyReference.cache
+C:\Users\rabece\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.Connexion.resources
+C:\Users\rabece\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.Menu.resources
+C:\Users\rabece\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.Properties.Resources.resources
+C:\Users\rabece\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.csproj.GenerateResource.cache
+C:\Users\rabece\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.csproj.CoreCompileInputs.cache
+C:\Users\rabece\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.exe
+C:\Users\rabece\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.pdb
+>>>>>>> Stashed changes
+C:\Users\rabece\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.Consultation.resources
+C:\Users\rabece\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.Insertion.resources
+C:\Users\rabece\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.Suppression.resources
