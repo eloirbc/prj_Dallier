@@ -146,6 +146,7 @@ namespace wfrm_prj_methodeScrum
             this.btGO.TabIndex = 18;
             this.btGO.Text = "GO";
             this.btGO.UseVisualStyleBackColor = true;
+            this.btGO.Click += new System.EventHandler(this.btGO_Click);
             // 
             // lbNomConsole
             // 
