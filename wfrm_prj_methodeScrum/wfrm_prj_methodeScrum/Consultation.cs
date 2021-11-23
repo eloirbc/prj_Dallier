@@ -36,13 +36,25 @@ namespace wfrm_prj_methodeScrum
         private void rbJv_CheckedChanged(object sender, EventArgs e)
         {
             lvConsole.Visible = false;
+            lvEtat.Visible = false;
+            lvMarques.Visible = false;
             lvJv.Visible = true;
         }
 
         private void rbConsole_CheckedChanged(object sender, EventArgs e)
         {
             lvJv.Visible = false;
+            lvEtat.Visible = false;
+            lvMarques.Visible = false;
             lvConsole.Visible = true;
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            lvConsole.Visible = false;
+            lvJv.Visible = false;
+            lvEtat.Visible = true;
+            lvMarques.Visible = true;
         }
     }
 }

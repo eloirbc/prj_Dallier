@@ -43,6 +43,10 @@ namespace wfrm_prj_methodeScrum
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.lvEtat = new System.Windows.Forms.ListView();
+            this.Différents_Etats = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.lvMarques = new System.Windows.Forms.ListView();
+            this.marques_dispo = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // label1
@@ -50,7 +54,7 @@ namespace wfrm_prj_methodeScrum
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(164, 16);
+            this.label1.Size = new System.Drawing.Size(179, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Souhaitez vous consulter : ";
             // 
@@ -59,7 +63,7 @@ namespace wfrm_prj_methodeScrum
             this.rbJv.AutoSize = true;
             this.rbJv.Location = new System.Drawing.Point(192, 7);
             this.rbJv.Name = "rbJv";
-            this.rbJv.Size = new System.Drawing.Size(118, 20);
+            this.rbJv.Size = new System.Drawing.Size(122, 21);
             this.rbJv.TabIndex = 1;
             this.rbJv.TabStop = true;
             this.rbJv.Text = "les jeux-vidéos";
@@ -71,7 +75,7 @@ namespace wfrm_prj_methodeScrum
             this.rbConsole.AutoSize = true;
             this.rbConsole.Location = new System.Drawing.Point(336, 7);
             this.rbConsole.Name = "rbConsole";
-            this.rbConsole.Size = new System.Drawing.Size(104, 20);
+            this.rbConsole.Size = new System.Drawing.Size(107, 21);
             this.rbConsole.TabIndex = 2;
             this.rbConsole.TabStop = true;
             this.rbConsole.Text = "les consoles";
@@ -151,11 +155,46 @@ namespace wfrm_prj_methodeScrum
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(446, 7);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(148, 20);
+            this.radioButton1.Size = new System.Drawing.Size(157, 21);
             this.radioButton1.TabIndex = 5;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "les marques et états";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            // 
+            // lvEtat
+            // 
+            this.lvEtat.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.Différents_Etats});
+            this.lvEtat.HideSelection = false;
+            this.lvEtat.Location = new System.Drawing.Point(12, 39);
+            this.lvEtat.Name = "lvEtat";
+            this.lvEtat.Size = new System.Drawing.Size(356, 410);
+            this.lvEtat.TabIndex = 6;
+            this.lvEtat.UseCompatibleStateImageBehavior = false;
+            this.lvEtat.View = System.Windows.Forms.View.Details;
+            // 
+            // Différents_Etats
+            // 
+            this.Différents_Etats.Text = "Différents états :";
+            this.Différents_Etats.Width = 300;
+            // 
+            // lvMarques
+            // 
+            this.lvMarques.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.marques_dispo});
+            this.lvMarques.HideSelection = false;
+            this.lvMarques.Location = new System.Drawing.Point(364, 39);
+            this.lvMarques.Name = "lvMarques";
+            this.lvMarques.Size = new System.Drawing.Size(329, 410);
+            this.lvMarques.TabIndex = 7;
+            this.lvMarques.UseCompatibleStateImageBehavior = false;
+            this.lvMarques.View = System.Windows.Forms.View.Details;
+            // 
+            // marques_dispo
+            // 
+            this.marques_dispo.Text = "Marques disponibles :";
+            this.marques_dispo.Width = 300;
             // 
             // Consultation
             // 
@@ -163,6 +202,8 @@ namespace wfrm_prj_methodeScrum
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(120)))), ((int)(((byte)(163)))));
             this.ClientSize = new System.Drawing.Size(705, 461);
+            this.Controls.Add(this.lvMarques);
+            this.Controls.Add(this.lvEtat);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.rbConsole);
             this.Controls.Add(this.rbJv);
@@ -193,5 +234,9 @@ namespace wfrm_prj_methodeScrum
         private System.Windows.Forms.ColumnHeader columnHeader6;
         private System.Windows.Forms.ColumnHeader columnHeader7;
         private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.ListView lvEtat;
+        private System.Windows.Forms.ColumnHeader Différents_Etats;
+        private System.Windows.Forms.ListView lvMarques;
+        private System.Windows.Forms.ColumnHeader marques_dispo;
     }
 }
