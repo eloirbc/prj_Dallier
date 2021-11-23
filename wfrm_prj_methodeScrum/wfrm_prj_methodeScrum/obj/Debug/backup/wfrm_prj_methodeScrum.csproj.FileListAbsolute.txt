@@ -42,3 +42,5 @@ C:\Users\rabece\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\
 C:\Users\rabece\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.Consultation.resources
 C:\Users\rabece\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.Insertion.resources
 C:\Users\rabece\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.Suppression.resources
+C:\Users\duponte\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.Insertion.resources
+C:\Users\duponte\Desktop\prj_Dallier\wfrm_prj_methodeScrum\wfrm_prj_methodeScrum\obj\Debug\wfrm_prj_methodeScrum.Suppression.resources
