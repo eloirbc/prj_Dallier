@@ -1,0 +1,17 @@
+Trigger:
+->Suppression Validé (Etat, Console, Marque)
+->Insertion Validé (Jeux,Etat,Console, marque)
+
+Procédure Stocké :
+->Insertion Validé (Marque, Console,Etat, Jeux)
+->Suppression Validé (Marque, Console, Jeux, Etat)
+
+prc_ajout_console(libConsole, idMarque)
+prc_ajout_etat(libEtat)
+prc_ajout_jeux(nomJeux,idConsole,idEtat)
+prc_ajout_marque(libMarque)
+
+prc_supp_Console(id)
+prc_supp_Etat(id)
+prc_supp_Jeux(id)
+prc_supp_marque(id)
