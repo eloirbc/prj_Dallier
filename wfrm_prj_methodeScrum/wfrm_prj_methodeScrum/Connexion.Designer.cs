@@ -29,20 +29,9 @@ namespace wfrm_prj_methodeScrum
         /// </summary>
         private void InitializeComponent()
         {
-            this.btInsertion = new System.Windows.Forms.Button();
             this.btSuppression = new System.Windows.Forms.Button();
+            this.btInsertion = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // btInsertion
-            // 
-            this.btInsertion.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btInsertion.Location = new System.Drawing.Point(12, 381);
-            this.btInsertion.Name = "btInsertion";
-            this.btInsertion.Size = new System.Drawing.Size(180, 57);
-            this.btInsertion.TabIndex = 0;
-            this.btInsertion.Text = "Insertion";
-            this.btInsertion.UseVisualStyleBackColor = true;
-            this.btInsertion.Click += new System.EventHandler(this.btInsertion_Click);
             // 
             // btSuppression
             // 
@@ -54,6 +43,17 @@ namespace wfrm_prj_methodeScrum
             this.btSuppression.Text = "Suppression";
             this.btSuppression.UseVisualStyleBackColor = true;
             this.btSuppression.Click += new System.EventHandler(this.btSuppression_Click);
+            // 
+            // btInsertion
+            // 
+            this.btInsertion.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btInsertion.Location = new System.Drawing.Point(12, 381);
+            this.btInsertion.Name = "btInsertion";
+            this.btInsertion.Size = new System.Drawing.Size(180, 57);
+            this.btInsertion.TabIndex = 0;
+            this.btInsertion.Text = "Insertion";
+            this.btInsertion.UseVisualStyleBackColor = true;
+            this.btInsertion.Click += new System.EventHandler(this.btInsertion_Click);
             // 
             // Connexion
             // 
@@ -69,8 +69,7 @@ namespace wfrm_prj_methodeScrum
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btInsertion;
         private System.Windows.Forms.Button btSuppression;
+        private System.Windows.Forms.Button btInsertion;
     }
 }
