@@ -31,7 +31,14 @@ namespace wfrm_prj_methodeScrum
         {
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(120)))), ((int)(((byte)(163)))));
+            this.ClientSize = new System.Drawing.Size(705, 461);
+            this.Controls.Add(this.rbConsole);
+            this.Controls.Add(this.rbJv);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lvJv);
+            this.Controls.Add(this.lvConsole);
+            this.Name = "Consultation";
             this.Text = "Consultation";
         }
 

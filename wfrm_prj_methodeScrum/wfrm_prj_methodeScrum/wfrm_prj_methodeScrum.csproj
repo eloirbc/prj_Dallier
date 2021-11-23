@@ -58,12 +58,14 @@
     <Compile Include="Consultation.Designer.cs">
       <DependentUpon>Consultation.cs</DependentUpon>
     </Compile>
+    <Compile Include="Globale.cs" />
     <Compile Include="Insertion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Insertion.Designer.cs">
       <DependentUpon>Insertion.cs</DependentUpon>
     </Compile>
+    <Compile Include="JeuVideo.cs" />
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
