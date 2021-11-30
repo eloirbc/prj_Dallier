@@ -65,6 +65,7 @@ namespace wfrm_prj_methodeScrum
             this.rbConsole.TabStop = true;
             this.rbConsole.Text = "les consoles";
             this.rbConsole.UseVisualStyleBackColor = true;
+            this.rbConsole.CheckedChanged += new System.EventHandler(this.rbConsole_CheckedChanged_1);
             // 
             // rbJv
             // 
@@ -76,6 +77,7 @@ namespace wfrm_prj_methodeScrum
             this.rbJv.TabStop = true;
             this.rbJv.Text = "les jeux-vidéos";
             this.rbJv.UseVisualStyleBackColor = true;
+            this.rbJv.CheckedChanged += new System.EventHandler(this.rbJv_CheckedChanged_1);
             // 
             // label1
             // 
@@ -126,12 +128,14 @@ namespace wfrm_prj_methodeScrum
             this.columnHeader4});
             this.lvJv.HideSelection = false;
             this.lvJv.Location = new System.Drawing.Point(60, 36);
+            this.lvJv.MultiSelect = false;
             this.lvJv.Name = "lvJv";
             this.lvJv.Size = new System.Drawing.Size(681, 410);
             this.lvJv.TabIndex = 9;
             this.lvJv.UseCompatibleStateImageBehavior = false;
             this.lvJv.View = System.Windows.Forms.View.Details;
             this.lvJv.Visible = false;
+            this.lvJv.Click += new System.EventHandler(this.lvJv_Click);
             // 
             // columnHeader1
             // 
@@ -162,8 +166,8 @@ namespace wfrm_prj_methodeScrum
             this.Controls.Add(this.rbConsole);
             this.Controls.Add(this.rbJv);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.lvConsole);
             this.Controls.Add(this.lvJv);
+            this.Controls.Add(this.lvConsole);
             this.Name = "Suppression";
             this.Text = "Suppression";
             this.ResumeLayout(false);
